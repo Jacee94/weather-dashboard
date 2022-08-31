@@ -1,0 +1,11 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    background-color: cornflowerblue;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
