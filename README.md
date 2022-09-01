@@ -5,4 +5,4 @@ This is a website coded with HTML, CSS, and JavaScript to pull information from 
 [Github Repo](https://github.com/Jacee94/weather-dashboard)  
 [Deployed Application](https://jacee94.github.io/weather-dashboard/)
 ## Screenshot
-![weather dashboard screenshot](./assets/images/snapshot.jpg)
+![weather dashboard screenshot](./assets/images/screenshot.JPG)
