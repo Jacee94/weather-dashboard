@@ -9,3 +9,33 @@ header {
     color: white;
     text-align: center;
 }
+
+.favorable{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white
+}
+
+.moderate{
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.severe{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.day-forecast{
+    background-color: rgb(101, 101, 223);
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}

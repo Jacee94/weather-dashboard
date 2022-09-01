@@ -17,14 +17,18 @@
         <main class="row">
             <section id="search" class="col-4">
                 <div id="search-form" class="m-3 p-2 border-bottom border-dark">
-                    <h2 class="m-2 mb-3">Search for a City:</h2>
-                    <input id="search-input" type="text" class="form-control m-2" placeholder="Chicago">
-                    <button id="search-submit" type="submit" class="btn btn-primary m-2">Search</button>
+                    <form id="search-form">
+                        <h2 class="m-2 mb-3">Search for a City:</h2>
+                        <input id="search-input" type="text" class="form-control m-2" placeholder="Chicago">
+                        <input id="search-submit" type="submit" class="btn btn-primary m-2"></input>
+                    </form>
                 </div>
 
                 <div id="serach-history" class="m-3 p-2">
                     <h2>Search History:</h2>
+                    <div id="history-container">
 
+                    </div>
                 </div>
             </section>
 
@@ -38,6 +42,9 @@
 
                 <div id="forecast" class="m-3">
                     <h2>5 day forecast:</h2>
+                    <div id="forecast-container" class="d-flex flex-row flex-wrap">
+
+                    </div>
                 </div>
             </section>
         </main>
