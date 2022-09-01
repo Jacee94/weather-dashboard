@@ -1,7 +1,7 @@
 const appid = '91ea7f389e76582e309295deb4709dea';
 
 async function forecastSearch(search){
-    const geoquery = `http://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=${appid}`;
+    const geoquery = `https://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=${appid}`;
     let weatherquery;
 
     await fetch(geoquery)
@@ -28,7 +28,7 @@ async function appendCurrentCity(data, city){
     const current = data.current;
     const date = new Date(current.dt * 1000).toLocaleDateString('en-US');
     const iconQuery = current.weather[0].icon;
-    const icon = `http://openweathermap.org/img/wn/${current.weather[0].icon}.png`;
+    const icon = `https://openweathermap.org/img/wn/${current.weather[0].icon}.png`;
 
     let uviSeverity;
     
